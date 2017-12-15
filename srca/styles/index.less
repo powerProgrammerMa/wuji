@@ -1,0 +1,32 @@
+
+
+@import "../assets/iconfont/iconfont.css";
+
+@import "./public/swiper-3.3.1.min.css";
+@import "./public/animate.min.css";
+@import "./public/flexible.css";
+@import "./page/main.less";
+
+@import "./page/diary.less";
+@import "./page/passer.less";
+@import "./page/my.less";
+@import "./page/login.less";
+@import "./page/register.less";
+@import "./page/share.less";
+html,body,#app,.section{
+    width:100%;
+    height:100%;
+
+  .login-enter-active{
+      animation:flipInY .8s;
+  }
+  .login-leave-active{
+    animation:flipOutY .8s;
+}
+.main-enter-active{
+    animation:bounceInRight .8s;
+}
+.main-leave-active{
+  animation:slideOutLeft .8s;
+}
+}

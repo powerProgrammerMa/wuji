@@ -1,0 +1,30 @@
+Vue.js
+是一套构建用户界面的渐进式框架
+web 前端框架
+Vue 采用自底向上的增量开发的设计
+Vue 是单页面应用   spa(single page application)
+ 
+
+
+
+
+
+设计模式：
+1、单例模式
+2、工厂模式
+3、代理模式
+4、观察者模式
+
+MVC     angular 
+MVVM    vue
+MVP    
+
+MVC:    (angular)
+M   model       数据层
+V   view        视图层
+C   controller  逻辑层 
+
+MVVM:   (vue)
+M   model       数据层
+V   view        视图层
+VW  viewmodel   vm实例对象  把数据data和视图html绑定在一起
